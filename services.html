@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Yale university
+    </title>
+    <link rel="stylesheet" href="university.css">
+    <link rel="icon" href="img/book-g9d19445ad_1280.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"/>
+</head>
+<body>
+   <section class="sub2-header">
+    <nav>
+        <a href="university.html"><img src="img/book-g9d19445ad_1280.png"></a>
+        <div class="nav-links" id="navlinks">
+            <i class="fa-sharp fa-solid fa-circle-xmark" id="tax" onclick="hidemenu()"></i> 
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="services.html">SERVICES</a></li>
+                <li><a href="course.html">COURSE</a></li>
+                <li><a href="about.html">ABOUT US</a></li>
+            </ul>
+        </div>
+        <i class="fa-solid fa-bars" id="tax" onclick="showmenu()"></i>
+    </nav>
+    <h1>SERVICES</h1>
+   </section>
+   <section class="services">
+      <div class="row">
+        <div class="services-col">
+            <h2>Cafeteria</h2>
+            <p>We provide best food and services for our students.We provide daily varities of food which is healthy and tasty.Come and enjoy the food.</p>
+        </div>
+        <div class="services-col">
+            <img src="img/cafe.jpg">
+        </div>
+      </div>
+      <hr>
+      <div class="row">
+        <div class="services-col">
+            <h2>Computer lab</h2>
+            <p>We provide best computer lab services for our software engineering students.we have great quality of computer that make your workful smooth and fast.</p>
+        </div>
+        <div class="services-col">
+            <img src="img/computer.jpg">
+        </div>
+      </div>
+      <hr>
+      <div class="row">
+        <div class="services-col">
+            <h2>Civil field visit</h2>
+            <p>In monthly basis,We take our civil engineering students in work field and give them experience about their future work.</p>
+        </div>
+        <div class="services-col">
+            <img src="img/civil.jpg">
+        </div>
+      </div>
+      <hr>
+      <div class="row">
+        <div class="services-col">
+            <h2>Mechincal lab</h2>
+            <p>We have great mechincal lab where our mechincal students can perform task and gain new experience about their work.</p>
+        </div>
+        <div class="services-col">
+            <img src="img/mechincal.jpg">
+        </div>
+      </div>
+      <hr>
+      <div class="row">
+        <div class="services-col">
+            <h2>Library</h2>
+            <p>Library is best place to read and learn new thing so we have great Library services where you can get great quality of book than can help in your study.</p>
+        </div>
+        <div class="services-col">
+            <img src="img/library-ga7054e6b1_1920.jpg">
+        </div>
+      </div>
+      <hr>
+   </section>
+
+
+ 
+  <!-- footer -->
+  <section class="footer">
+    <h1>CONTACT US</h1>
+    <p>TO know more about our university and our course just go through our social media platform</p>
+    <div class="icon">
+      <a href="https://www.facebook.com/"  target="_blank"><span> <i class="fa-brands fa-facebook-f"></i></span></a>
+      <a href="https://www.instagram.com/"  target="_blank"><span> <i class="fa-brands fa-instagram"></i></span></a>
+      <a href="https://www.twitter.com/"  target="_blank"><span> <i class="fa-brands fa-twitter"></i></span></a>
+      <a href="https://www.linkedin.com/"  target="_blank"><span> <i class="fa-brands fa-linkedin"></i></span></a>
+      <a href="https://www.youtube.com/"  target="_blank"><span> <i class="fa-brands fa-youtube"></i></span></a>
+    </div>
+    <P><i class="fa-regular fa-copyright"></i>opyright all reserved</i></P>
+  </section>
+  
+         <!-- javascript -->
+  <script>
+    var navlinks = document.getElementById("navlinks");
+    function showmenu(){
+       navlinks.style.right="0";
+    }
+    function hidemenu(){
+       navlinks.style.right="-200px";
+    }
+ </script>
+</body>
+</html>
